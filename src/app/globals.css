@@ -6,8 +6,8 @@
 }
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #000000;
+  --foreground: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,4 +21,17 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+.my-masonry-grid {
+  display: flex;
+  margin-left: -15px; /* カラム間のスペース */
+}
+
+.my-masonry-grid_column {
+  padding-left: 15px; /* カラム間のスペース */
+}
+
+.item {
+  background-color: #ccc;
+  margin-bottom: 15px;
 }
