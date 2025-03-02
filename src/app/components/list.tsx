@@ -31,7 +31,7 @@ const list = () => {
                                 className="object-cover"
                             />
                         </div>
-                        <p className="p-1 absolute bottom-0">{item.name}</p>
+                        <p className="ml-2 p-1 absolute bottom-0">{item.name}</p>
                     </div>
                 ))}
             </Masonry>
